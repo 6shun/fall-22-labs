@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <!-- Refer: https://www.w3schools.com/howto/howto_css_about_page.asp -->
+    
+    <head>
+        <link rel='stylesheet' href="tianhao_wu.css">
+    </head>
+
+
+    <body>
+        <div class="personal-info">
+            <h1 style="color:aliceblue"> About Me</h1>
+            <p style="color:aliceblue">I'm <span style="color: rgb(253, 235, 187)" >Tianhao  Wu</span>, M.S. Systems Engineering student at UC Berkeley.  </p>
+            <!-- Self Portrait-->
+            <img src="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/VC_SpotlightBerkeley_Hero_Stock_RF_149303390_1280x640.jpg" alt="Simply Easy Learning" width="100">
+            
+            <h2 style="color:aliceblue"> Connect With Me</h2>
+                <!-- Logo With Hyperlink-->
+                <a href="https://www.linkedin.com/in/tianhao-wu/"> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="Connect Tianhao Wu" width="30" height="30" title="LinkedIn">
+                </a>
+                <a href="https://github.com/6shun"> 
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Tianhao Wu GitHub" width="30" height="30" title="GitHub">
+                </a>
+        </div>
+    
+    
+        <div class="experience">
+            <h1> Experience</h1>
+            <!--
+            <div class="individual-experience">
+                <h2> AECOM</h2>
+                <ol>
+                    <li> </li>
+                </ol>
+            </div>
+            -->
+
+            <div class="individual-experience">
+                <h2> SenseTime</h2>
+                <ol>
+                    <li>Surveyed scenario-based safety assessments for Autonomous Driving Systems (ADS)</li>
+                    <li>Formulated 3 level of abstraction + 6 layer model based on PEGASUS method for parameterizing and testing scenarios</li>
+                </ol>
+            </div>
+        </div>
+    
+        <div class="projects">
+            <h1> Projects</h1>
+            <!-- header with bullet points -->
+            <div class="individual-project">
+                <h2> MBTI Predictor</h2>
+                <ul>
+                    <li> Predicted MBTI personality types with 67% accuracy, improved 46% compared to the baseline</li>
+                    <li> Processed and featurized forum posts using Time Frequency-Inverse Document Frequency (TF-IDF)</li>
+                    <li> Built and fine-tuned 8 classifiers with various design matrixes and principal components</li>
+                </ul>
+            </div>
+
+            <div class="individual-project">
+                <h2> 
+                    Lyft Bay Wheels Data Analysis</h2>
+                <ul>
+                    <li> Conducted urban mobility analysis on Lyft docked shared bikes data and ACS data utilizing Scikit-Mobility</li>
+                    <li> Analyzed and visualized trip distributions using GeoPandas, simulated decks network using NetworkX</li>
+                    <li> Performed K-means clustering on census tracts, suggested optimal locations to build bike stations</li>
+                </ul>
+            </div>
+            
+        </div>
+    
+        <div class="contact-from">
+            <h1> Contact Me</h1>
+            <form>
+                <label for="fname">E-mail:</label><br />
+                <input type="text" name="email" /><br />
+
+                <label for="fname">Purpose?</label><br />
+                <input type="radio" id="work" name="work" value="Work" />
+                <label for="work">Work related</label><br />
+                <input type="radio" id="school" name="school" value="School" />
+                <label for="school">School related</label><br />
+                <!--
+                <input type="checkbox" id="coding" name="coding" value="Coding" />
+                <label for="coding"> I have coding experience</label><br />
+                -->
+                <label for="message">Message:</label><br />
+                <textarea name="message" cols="40" rows="5"></textarea>
+                <input type="submit" value="Submit" />
+              </form>
+        </div>
+    </body>
+
+</html>

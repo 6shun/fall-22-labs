@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+html {
+    box-sizing: border-box;
+  }
+
+p {
+    text-align: center;
+    color: rgb(247, 210, 141);
+}
+
+li {
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  color:rgb(0, 0, 0)
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  color:rgb(0, 0, 0)
+}
+
+.personal-info{
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+
+  
