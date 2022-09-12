@@ -7,10 +7,6 @@ html {
     box-sizing: border-box;
   }
 
-p {
-    text-align: center;
-    color: rgb(247, 210, 141);
-}
 
 li {
   color: rgb(0, 0, 0);
@@ -24,7 +20,14 @@ h1 {
 
 h2 {
   font-family: Helvetica, Arial, sans-serif;
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
+  margin-bottom: 0em
+}
+
+p {
+  margin-top: 0em ;
+  margin-bottom: 0em ;
+  line-height: 1
 }
 
 .personal-info{
@@ -33,5 +36,11 @@ h2 {
     background-color: #474e5d;
     color: white;
   }
+
+.experience-time{
+  color: gray;
+  margin-bottom: 0;
+  line-break: 
+}
 
   
