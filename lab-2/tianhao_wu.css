@@ -30,6 +30,10 @@ p {
   line-height: 1
 }
 
+.individual-project {
+  margin-bottom: 0em
+}
+
 .personal-info{
     padding: 50px;
     text-align: center;
