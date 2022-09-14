@@ -30,6 +30,8 @@ p {
   line-height: 1
 }
 
+.emphasized { font-style: italic; }
+
 .individual-project {
   margin-bottom: 0em
 }
