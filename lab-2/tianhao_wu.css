@@ -46,6 +46,7 @@ p {
 .experience-time{
   color: gray;
   margin-bottom: 0;
+  padding :0;
 }
 
 .contact-form{
