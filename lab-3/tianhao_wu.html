@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <!-- Refer: https://www.w3schools.com/howto/howto_css_about_page.asp -->
+    
+    <head>
+        <link rel='stylesheet' href="tianhao_wu.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>About Me - Tianhao Wu</title>
+    </head>
+
+
+    <body>
+        <div class="personal-info">
+            <h1 style="color:aliceblue"> About Me</h1>
+            <p style="color:aliceblue">I'm <span style="color: rgb(0,50,98)" ><b>Tianhao Wu</b></span>, M.S. Civil Systems Engineering student at UC Berkeley.  
+            </p> <br>
+            <!-- Self Portrait-->
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQHLB8Noo4mAOA/profile-displayphoto-shrink_400_400/0/1660422780992?e=1668643200&v=beta&t=8UFywNzobIP9AJ1oG6h4wJFHPCzfKPj3XpZ74p8R8rI" alt="Simply Easy Learning" width="200">
+            
+            <h2 style="color:aliceblue"> Connect With Me</h2>
+                <!-- Logo With Hyperlink-->
+                <a href="https://www.linkedin.com/in/tianhao-wu/"> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="Connect Tianhao Wu" width="30" height="30" title="LinkedIn">
+                </a>
+                <a href="https://github.com/6shun"> 
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Tianhao Wu GitHub" width="30" height="30" title="GitHub">
+                </a>
+        </div>
+    
+
+        <hr class="solid">
+        <div class="education">
+            <h1> Education</h1>
+            <div class="individual-education">
+                <h2> University of California, Berkeley</h2>
+                <span class='emphasized'>Master of Science</span>, Systems Engineering <br>
+                Berkeley, CA 
+                <p class="experience-time"> Aug 2021 - Dec 2022  </p>
+
+            </div>
+
+            <div class="individual-education">
+                <h2> University of California, Berkeley</h2>
+                <span class='emphasized'>Bachelor of Science</span>, Civil and Environmental Engineering  <br>
+                Berkeley, CA
+                <p class="experience-time"> Aug 2017 - May 2021</p>
+            </div>
+        </div>   
+
+        <hr class="solid">
+        <div class="experience">
+            <h1> Experience</h1>
+            <div class="individual-experience">
+                <h2> AECOM  </h2>
+                <p class="experience-pos"> Traffic/Technology/ITS Intern</p>
+                <p class="experience-time"> Jun 2022 - Present · 4 mos </p>
+                <ul>
+                    <li>Evaluated topography and visualized issues related to broadband conduit installation along 196 miles of I-40 highway </li>
+                    <li>Built VISSIM model of I-10/SR-101 for traffic analysis</li>
+                    <li>Processed collected radar data with VBA and excel formulas in batch</li>
+                </ul>
+            </div>
+
+            <div class="individual-experience">
+                
+                <h2> SenseTime </h2>
+                <p class="experience-pos"> Research Intern</p>
+                <p class="experience-time"> May 2021 - Jul 2021 · 3 mos </p>
+                <ul>
+                    <li>Surveyed scenario-based safety assessments for Autonomous Driving Systems (ADS)</li>
+                    <li>Formulated 3 level of abstraction + 6 layer model based on PEGASUS method for parameterizing and testing scenarios</li>
+                    <li>Integrated FuSa & SOTIF into a V-model flowchart to develop and verify autonomous vehicle system</li>
+                </ul>
+            </div>
+        </div>
+    
+        <hr class="solid">
+        <div class="projects">
+            <h1> Projects</h1>
+            <!-- header with bullet points -->
+            <div class="individual-project" >
+                <h2> MBTI Predictor</h2>
+                <ul>
+                    <li> Predicted MBTI personality types with 67% accuracy, improved 46% compared to the baseline</li>
+                    <li> Processed and featurized forum posts using Time Frequency-Inverse Document Frequency (TF-IDF)</li>
+                    <li> Built and fine-tuned 8 classifiers with various design matrixes and principal components</li>
+                </ul>
+            </div>
+
+            <div class="individual-project">
+                <h2> 
+                    Lyft Bay Wheels Data Analysis</h2>
+                <ul>
+                    <li> Conducted urban mobility analysis on Lyft docked shared bikes data and ACS data utilizing Scikit-Mobility</li>
+                    <li> Analyzed and visualized trip distributions using GeoPandas, simulated decks network using NetworkX</li>
+                    <li> Performed K-means clustering on census tracts, suggested optimal locations to build bike stations</li>
+                </ul>
+            </div>
+            
+        </div>
+
+
+        <hr class="solid">
+        <div class="contact-from">
+            <h1> Contact Me</h1>
+            <form>
+                <label for="fname">E-mail:</label><br />
+                <input type="text" name="email" /><br />
+
+                <label for="fname">Purpose?</label><br />
+                <input type="radio" id="work" name="work" value="Work" />
+                <label for="work"> <i class="material-icons">traffic</i> Work related</label><br />
+                <input type="radio" id="school" name="school" value="School" />
+                <label for="school"> <i class="material-icons">computer</i> School related</label><br />
+                <!--
+                <input type="checkbox" id="coding" name="coding" value="Coding" />
+                <label for="coding"> I have coding experience</label><br />
+                -->
+                <label for="message">Message:</label><br />
+                <textarea name="message" cols="40" rows="5"></textarea>
+                <input type="submit" value="Submit" />
+              </form>
+        </div>
+    </body>
+
+</html>

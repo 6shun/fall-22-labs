@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+html {
+    box-sizing: border-box;
+  }
+
+
+li {
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  font-size: 18;
+  color:rgb(0, 0, 0)
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  color:rgb(0, 0, 0);
+  margin-bottom: 0em
+}
+
+p {
+  margin-top: 0em ;
+  margin-bottom: 0em ;
+  line-height: 1
+}
+
+.emphasized { font-style: italic; }
+
+.individual-project {
+  margin-bottom: 0em
+}
+
+.personal-info{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(188,155,106);
+    color: white;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 3px solid rgb(253,181,21);
+    width: 90%;
+    outline: 3px solid rgb(0,50,98);
+  }
+
+.experience-time{
+  color: gray;
+  margin-bottom: 0;
+  padding :0;
+}
+
+.contact-form{
+  background-color: #474e5d;
+}
+
+  
